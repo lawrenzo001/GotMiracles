@@ -1,0 +1,392 @@
+.rapper {
+    background-color: #636363;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.rapper img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -10px;
+    height: 65em;
+}
+
+.rapper .circle-outer {
+    height: 1700px;
+    width: 1700px;
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+    margin-left: -850px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rapper .circle-inner {
+    height: 800px;
+    width: 800px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: inherit;
+}
+
+.rapper .landing{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    display: flex;
+    box-shadow: insert 0 0 300px black;
+    background: radial-gradient( circle, rgba( 62, 62, 62, 0) 0%, black 100%);
+}
+
+.rapper .landing aside {
+    height: 1000px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rapper .landing aside .disc{
+    height: 80px;
+    background-color: #ee5454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+
+
+.rapper .landing aside nav{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    padding: 4em 0;
+    box-sizing: border-box;
+    
+}
+
+.rapper .landing aside nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rapper .landing aside nav ul li {
+    color: white;
+    list-style: none;
+    position: relative;
+}
+
+.rapper .landing aside nav ul .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rapper .landing aside nav ul .scroll li:nth-child(2) {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    height: 100px;
+    top: 15px;
+}
+
+.rapper .landing aside nav ul .scroll li:nth-child(3) {
+    font-family: 'poppins', sans-serif;
+    font-size: 0.7em;
+    transform:rotate(-90deg);
+    top: 30px;
+}
+
+.rapper .landing aside nav ul .social  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rapper .landing aside nav ul .social li {
+    margin-top: 50px;
+    color: #ffff;
+}
+
+
+.rapper .landing section {
+    width: 100%;
+
+}
+
+.rapper .landing section header {
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+
+.rapper .landing section header h1 {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.rapper .landing section header nav ul li {
+    float: left;
+    margin: 0 5em;
+
+}
+
+.rapper .landing section header nav ul li a {
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.rapper .landing section .content {
+    position: relative;
+    width: inherit;
+    display: flex;
+    color: white;
+
+}
+
+.rapper .landing section .content .features {
+    font-family: mada, sans-serif;
+    width: 25%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.rapper .landing section .content .feature {
+    width: 200px;
+    transform: rotate(-90deg);
+    transform-origin: bottom;
+}
+
+.rapper .landing section .content .features .feature span {
+    display: block;
+    margin-bottom: 20px;
+    height: 2px;
+    width: 20px;
+    background-color: #ee5454;
+    position: absolute;
+    bottom: 50px;
+}
+
+.rapper .landing section .content .features .feature .wrap {
+    overflow: hidden;
+}
+
+.rapper .landing section .content .features .feature .wrap h1 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.rapper .landing section .content .features .feature .wrap p {
+    font-size: 10px;
+    line-height: 1.5em;
+    color: #a8a8a8;
+}
+
+.rapper .landing section .content .features .feature :nth-child(2) span{
+    height: 50px;
+}
+
+.rapper .landing section .content .theme {
+    width: 40%;
+    margin-right: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 140px;
+}
+
+.rapper .landing section .content .theme h2{
+    text-transform: uppercase;
+    color: #ee5454;
+    font-size: 1.5em;
+    align-self: flex-start;
+    overflow: hidden;
+ 
+}
+
+.rapper .landing section .content .theme h2 .wrap {
+    position: relative;
+
+}
+
+.rapper .landing section .content .theme h2 .wrap span {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 10px;
+    color: white;
+    position: relative;
+    top: 5px;
+}
+
+.rapper .landing section .content .theme h1 {
+    text-transform: capitalize;
+    font-size: 14em;
+    font-weight: 200;
+    overflow: hidden;
+
+}
+
+.rapper .landing section .content .theme h1 .wrap {
+    position: relative;
+
+}
+
+.rapper .landing section .content .theme p {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 2.6em;
+    font-weight: 200;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+    display: flex;
+    align-self: flex-end;
+    overflow: hidden;
+    padding: 2px 20px;
+}
+
+.rapper .landing section .content .theme .bar {
+    width: 500px;
+    height: 5px;
+    background-color: #505050;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 10em;
+    
+}
+
+.rapper .landing section .content .theme .bar:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ee5454;
+}
+
+.rapper .landing section .content .extra {
+    width: 20%;
+    height: 100px;
+    position: relative;
+
+}
+
+.rapper .landing section .content .extra .half-num {
+    position: relative;
+    top: 100px;
+    left: 70px;
+    display: flex;
+    color: #ee5454;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rapper .landing section .content .extra .half-num h1 {
+    font-size: 8em;
+    font-weight: 200;
+    color: #fff;
+    position: relative;
+    right: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+.rapper .landing section .content .extra .new-beginning p {
+    position: absolute;
+    bottom: 280px;
+    display: flex;
+    top: 20px;
+
+}
+
+.rapper .landing section .content .extra .new-beginning .go{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #ee5454;
+}
+
+.rapper .landing section .content .extra .new-beginning .go span {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.rapper .landing section .content .extra .new-beginning .content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mada', sans-serif;
+}
+
+.rapper .landing section .content .extra .new-beginning .content h4 {
+    font-size: 1em;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.rapper .landing section .content .extra .new-beginning .content h4::before {
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 4px;
+    background-color: #ee5454;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.rapper .landing section .content .extra .new-beginning .content p {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #a8a8a8;
+}
+
+.rapper .landing section .content .extra .scroll {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
